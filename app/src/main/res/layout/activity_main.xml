@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background2"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="258dp"
+            android:gravity="center_horizontal"
+            android:text="yellow is energy,those who favor yellow are optimistic,warm,adventurous and creative!!!"
+            android:textColor="#000000"
+            android:textSize="19sp" />
+
+        <EditText
+            android:id="@+id/EditEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:hint="Enter your Email"
+            android:textColor="#242222"
+            android:textColorHint="#000000"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/EditPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:hint="Password"
+            android:textColorHint="#000000"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="Log in"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+
+
+
+</FrameLayout>
